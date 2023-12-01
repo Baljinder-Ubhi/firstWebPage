@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        div {
+            margin: 10px;
+            border: 5px solid red;
+            padding: 20px;
+            width: 200px;
+        }
+
+        .navbar {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+            .navbar > li {
+                color: red;
+                display: inline-block;
+            }
+
+                .navbar > li > a {
+                    padding: 20px;
+                    display: inline-block;
+                    border-bottom: solid 3px blue;
+                    text-decoration: none;
+                    background-color: yellow;
+                    transition: all ease .5s;
+                }
+
+                    /* pseudo code */
+                    .navbar > li:first-child a, .navbar > li > a:hover {
+                        color: white;
+                        border-bottom-color: black;
+                        background-color: red;
+                        border-radius: 20px;
+                        transform: rotate(360deg);
+                    }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="javascript:;">About</a></li>
+        <li><a href="javascript:;">Services</a></li>
+        <li><a href="javascript:;">Contact Us</a></li>
+        <li><a href="javascript:;">Gallery</a></li>
+        <li><a href="javascript:;">About</a></li>
+        <li><a href="javascript:;">Services</a></li>
+        <li><a href="javascript:;">Contact Us</a></li>
+        <li><a href="javascript:;">Gallery</a></li>
+        <li><a href="javascript:;">About</a></li>
+        <li><a href="javascript:;">Services</a></li>
+        <li><a href="javascript:;">Contact Us</a></li>
+        <li><a href="javascript:;">Gallery</a></li>
+    </ul>
+</body>
+</html>
